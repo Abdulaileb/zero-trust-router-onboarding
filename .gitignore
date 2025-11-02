@@ -1,0 +1,83 @@
+# Temporary files
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test results
+/tmp/test-results-*.log
+
+# Build artifacts
+*.o
+*.so
+*.a
+*.out
+
+# VM images and snapshots
+*.img
+*.qcow2
+*.vmdk
+*.vdi
+
+# Compressed archives
+*.gz
+*.bz2
+*.xz
+*.zip
+*.tar
+
+# Certificates and keys (for development only)
+# In production, these should be properly managed
+*.pem
+*.key
+*.crt
+*.csr
+
+# Credentials and sensitive data
+credentials.enc
+*.gpg
+*.age
+
+# State files
+state
+*.state
+
+# Logs
+logs/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+.project
+.settings/
+
+# OS files
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Package manager files
+node_modules/
+vendor/
+.vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+pip-log.txt
+
+# Local configuration overrides
+config.local
+*.local.conf
